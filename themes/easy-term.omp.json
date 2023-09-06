@@ -98,6 +98,12 @@
           "template": "<#cc7eda> \u007C </><#7eb8da>\ue73d</> {{ .Full }}"
         },
         {
+          "type": "dotnet",
+          "style": "powerline",
+          "foreground": "#81ff91",
+          "template": "  {{ .Full }} "
+        },
+        {
           "type": "npm",
           "style": "powerline",
           "foreground": "#81ff91",
