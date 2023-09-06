@@ -100,8 +100,8 @@
         {
           "type": "dotnet",
           "style": "powerline",
-          "foreground": "#81ff91",
-          "template": "  {{ .Full }} "
+          "foreground": "#9e17d3",
+          "template": "<#cc7eda> \u007C </>  {{ if .Unsupported }}\uf071{{ else }}{{ .Full }}{{ end }} "
         },
         {
           "type": "npm",
